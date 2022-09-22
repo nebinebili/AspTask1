@@ -1,0 +1,22 @@
+﻿@model IList<AspTask1.Models.Drink>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Index 2</title>
+    </head>
+    <body>
+        <h1>Drinks</h1>
+        @foreach (var item in Model)
+        {
+        <hr />
+        <h4>Name:@item.Name</h4>
+        <h4>Price:@item.Price ₼</h4>
+        <h4>Volume:@item.Volume</h4>
+        <hr />
+        }
+    </body>
+
+</html>
+
+
